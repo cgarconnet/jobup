@@ -295,7 +295,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
+    background: url(../images/item-5.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -403,6 +403,8 @@ textarea.form-control {
 	text-align: center;
 	padding: 40px 20px;
 	margin: 0 0 20px;
+/* -- Chris addition to ensure boxes of services are all same size whatever the number of lines -- */
+	height: 250px;
 }
 
 .iconbox-icon {
@@ -884,6 +886,8 @@ figure.effect-bubba:hover p {
 	margin: 3em auto 0em auto;
 	max-width: 90%;
 	width: 90%;
+/*--- Added by Chris to limit the differences of quotes on the homepage ---*/
+	height: 230px;
 }
 
 .cbp-qtrotator .cbp-qtcontent {
