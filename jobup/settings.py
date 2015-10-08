@@ -135,7 +135,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/static/' # Pour le déploiement sur Heroku
+STATIC_ROOT = '/static/' # Pour le deploiement sur Heroku
 
 
 STATICFILES_DIRS = (
