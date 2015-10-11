@@ -26,7 +26,7 @@ MAIN_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '36lchaf@vmx+ak)idxp64%#r&_42*a9@vtgzbizc!u1p&*jss='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
