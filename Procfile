@@ -1,1 +1,1 @@
-web: gunicorn jobup.wsgi --log-file -
+web: python jobup/manage.py collectstatic --noinput; gunicorn jobup.wsgi --log-file -
