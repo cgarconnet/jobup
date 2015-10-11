@@ -136,11 +136,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = (
-    os.path.join(MAIN_DIR, 'static'),
+    os.path.join(MAIN_DIR, 'static/'),
     ) 
 # = '/static/' # Pour le deploiement sur Heroku
 
 
 STATICFILES_DIRS = (
-    os.path.join(MAIN_DIR, 'static'),
+    os.path.join(MAIN_DIR, 'static/'),
     )
