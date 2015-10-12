@@ -27,7 +27,7 @@
 		// default transition easing
 		easing : 'ease',
 		// rotator interval (ms)
-		interval : 8000
+		interval : 11000 //8000 before Chris change on OCt 12
 	};
 
 	$.CBPQTRotator.prototype = {

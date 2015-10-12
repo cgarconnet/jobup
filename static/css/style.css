@@ -357,7 +357,9 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
+ /* Chris change on Oct 12 to make the picture ligher
     background-image: url("../images/pattern.png");
+ */
     background-repeat: repeat;
     height: 100%;
     left: 0;
